@@ -6,12 +6,12 @@ require 'typus/enum/i18n/version'
 Gem::Specification.new do |spec|
   spec.name          = "typus-enum-i18n"
   spec.version       = Typus::Enum::I18n::VERSION
-  spec.authors       = ["babanba.n"]
+  spec.authors       = ["baban"]
   spec.email         = ["babanba.n@gmail.com"]
 
   spec.summary       = %q{Typus extention to translate selector}
   spec.description   = %q{Typus extention to translate selector}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.homepage      = "https://github.com/baban/typus-enum-i18n"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org by setting 'allowed_push_host', or

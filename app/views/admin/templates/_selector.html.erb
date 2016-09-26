@@ -1,0 +1,8 @@
+<%
+  custom = { rows: resource.typus_options_for(:form_rows), value: @item.try(attribute) }
+  options = options.merge!(custom)
+%>
+<div class="form-group" id="<%= attribute_id %>">
+  <%= form.label attribute, label_text, { class: 'control-label' } %>
+  <%= form.select attribute, @resource.try("#{attribute.pluralize}_i18n").try(:invert).presence || @resource.send(attribute.pluralize) || [], options, html_options.merge(class: "form-control") %>
+</div>
