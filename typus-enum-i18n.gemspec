@@ -6,11 +6,11 @@ require 'typus/enum/i18n/version'
 Gem::Specification.new do |spec|
   spec.name          = "typus-enum-i18n"
   spec.version       = Typus::Enum::I18n::VERSION
-  spec.authors       = ["m_matsubara"]
-  spec.email         = ["m_matsubara@okwave.co.jp"]
+  spec.authors       = ["babanba.n"]
+  spec.email         = ["babanba.n@gmail.com"]
 
-  spec.summary       = %q{TODO: Write a short summary, because Rubygems requires one.}
-  spec.description   = %q{TODO: Write a longer description or delete this line.}
+  spec.summary       = %q{Typus extention to translate selector}
+  spec.description   = %q{Typus extention to translate selector}
   spec.homepage      = "TODO: Put your gem's website or public repo URL here."
   spec.license       = "MIT"
 
@@ -30,4 +30,5 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "bundler", "~> 1.10"
   spec.add_development_dependency "rake", "~> 10.0"
   spec.add_development_dependency "rspec"
+  spec.add_development_dependency "enum_help"
 end
